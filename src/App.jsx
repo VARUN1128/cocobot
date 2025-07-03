@@ -46,8 +46,8 @@ function App() {
 
   const team = [
     {
-      name: "Ashin P Krishna",
-      title: "Founder",
+      name: "Aswin P Krishna",
+      title: "CEO & Founder",
       image: FounderImage,
     },
     {
@@ -334,53 +334,54 @@ function App() {
         </div>
       </motion.section>
 
-      {/* Marquee Section */}
-      <div className="bg-[#1e1e1e] h-24 overflow-hidden whitespace-nowrap relative flex items-center">
-        <div className="flex absolute whitespace-nowrap animate-marquee">
-          <div className="flex space-x-12 text-white text-3xl font-medium mx-4 items-center">
-            <span>Agricultural Innovation</span>
-            <span>•</span>
-            <span>Robotic Solutions</span>
-            <span>•</span>
-            <span>Smart Farming</span>
-            <span>•</span>
-            <span>Sustainable Agriculture</span>
-            <span>•</span>
-            <span>AI-Powered Systems</span>
-            <span>•</span>
-            <span>Precision Farming</span>
-            <span>•</span>
-            <span>Future of Agriculture</span>
-            <span>•</span>
-            <span>Farm Automation</span>
-            <span>•</span>
-            <span>Tech Innovation</span>
-            <span>•</span>
-            <span>Eco-Friendly Solutions</span>
-          </div>
-          <div className="flex space-x-12 text-white text-3xl font-medium mx-4 items-center">
-            <span>Agricultural Innovation</span>
-            <span>•</span>
-            <span>Robotic Solutions</span>
-            <span>•</span>
-            <span>Smart Farming</span>
-            <span>•</span>
-            <span>Sustainable Agriculture</span>
-            <span>•</span>
-            <span>AI-Powered Systems</span>
-            <span>•</span>
-            <span>Precision Farming</span>
-            <span>•</span>
-            <span>Future of Agriculture</span>
-            <span>•</span>
-            <span>Farm Automation</span>
-            <span>•</span>
-            <span>Tech Innovation</span>
-            <span>•</span>
-            <span>Eco-Friendly Solutions</span>
-          </div>
-        </div>
-      </div>
+ {/* Marquee Section */}
+<div className="bg-[#1e1e1e] h-24 overflow-hidden whitespace-nowrap flex items-center relative">
+  <div className="flex min-w-full animate-marquee space-x-12 text-white text-3xl font-medium mx-4 items-center">
+    <span>Agricultural Innovation</span>
+    <span>•</span>
+    <span>Robotic Solutions</span>
+    <span>•</span>
+    <span>Smart Farming</span>
+    <span>•</span>
+    <span>Sustainable Agriculture</span>
+    <span>•</span>
+    <span>AI-Powered Systems</span>
+    <span>•</span>
+    <span>Precision Farming</span>
+    <span>•</span>
+    <span>Future of Agriculture</span>
+    <span>•</span>
+    <span>Farm Automation</span>
+    <span>•</span>
+    <span>Tech Innovation</span>
+    <span>•</span>
+    <span>Eco-Friendly Solutions</span>
+  </div>
+
+  {/* Duplicate content for seamless effect */}
+  <div className="flex min-w-full animate-marquee space-x-12 text-white text-3xl font-medium mx-4 items-center">
+    <span>Agricultural Innovation</span>
+    <span>•</span>
+    <span>Robotic Solutions</span>
+    <span>•</span>
+    <span>Smart Farming</span>
+    <span>•</span>
+    <span>Sustainable Agriculture</span>
+    <span>•</span>
+    <span>AI-Powered Systems</span>
+    <span>•</span>
+    <span>Precision Farming</span>
+    <span>•</span>
+    <span>Future of Agriculture</span>
+    <span>•</span>
+    <span>Farm Automation</span>
+    <span>•</span>
+    <span>Tech Innovation</span>
+    <span>•</span>
+    <span>Eco-Friendly Solutions</span>
+  </div>
+</div>
+
 
       {/* Our Mission Section */}
       <motion.section

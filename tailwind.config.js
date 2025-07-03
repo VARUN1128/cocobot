@@ -17,3 +17,18 @@ module.exports = {
   },
   plugins: [],
 };
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content; /* Ensures proper width for scrolling */
+  animation: marquee 15s linear infinite;
+}
+
